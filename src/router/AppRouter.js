@@ -5,6 +5,7 @@ import Login from "../pages/login/Login";
 import Register from "../pages/register/Register";
 import Details from "../pages/details/Details";
 
+
 const AppRouter = () => {
   return (
     <Router>
