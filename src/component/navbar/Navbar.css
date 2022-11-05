@@ -1,0 +1,19 @@
+.warning {
+  font-size: 1rem;
+  text-decoration: none;
+  color: rgb(248, 240, 240);
+  font-weight: 400;
+
+  width: 100%;
+  text-align: right;
+}
+
+.info {
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(252, 147, 9);
+  font-weight: 600;
+}

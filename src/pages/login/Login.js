@@ -1,8 +1,10 @@
 import "./Login.css";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { Link, useLocation } from "react-router-dom";
 
 const Login = () => {
+  let path = useLocation().pathname;
   return (
     <div className="login">
       <Form className="form">
@@ -19,6 +21,16 @@ const Login = () => {
         <Button variant="primary" type="submit">
           Submit
         </Button>
+        <div className="warning">
+          <p className="info">
+            {path === "/login" && "Don't you have an account"}
+            {path === "/register" && "Already have an account"}
+            <Link to={`${path === "/login" ? "/register" : "/login"}`}>
+              {path === "/register" && "Login"}
+              {path === "/login" && "Register"}
+            </Link>
+          </p>
+        </div>
       </Form>
     </div>
   );
