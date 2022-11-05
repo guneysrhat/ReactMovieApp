@@ -1,0 +1,29 @@
+.movieContainer {
+  background-image: linear-gradient(to right, #98dce4, #02343d);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(to right, #98dce4, #02343d);
+}
+
+.search-form form {
+  width: 40%;
+}
+
+.search-form form input {
+  background-image: linear-gradient(to right, #98dce4, #02343d);
+  width: 100%;
+  border: none;
+  outline: none;
+  box-shadow: inset 1px 2px 3px rgba(7, 7, 7, 0.9);
+  color: aliceblue;
+  height: 2rem;
+  border-radius: 1rem;
+}

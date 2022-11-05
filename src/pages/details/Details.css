@@ -1,0 +1,50 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(to right, #98dce4, #02343d);
+  height: 100vh;
+  width: 100vw;
+}
+
+.backdrop {
+  width: 12rem;
+  height: 18rem;
+  box-shadow: 5px -2px 8px rgba(231, 229, 229, 0.568);
+  border-radius: 1rem;
+}
+
+.trailer-overview {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 1rem;
+}
+
+.trailer-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.trailer-parag-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.trailer-title {
+  padding-bottom: 1rem;
+}
+
+iframe {
+  margin-top: 1rem;
+  width: 65%;
+  min-height: 25rem;
+}
